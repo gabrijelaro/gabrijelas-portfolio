@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabrijela's portfolio website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" >
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">
+    
+</head>
+
+
+<body>
+   <header>
+       <div class="logo">
+           <img src="" alt="">
+       </div>
+
+       <button class="nav-toggle" aria-label="toggle-navigation">
+           <span class="hamburger"></span>
+       </button>
+       <nav class="nav">
+           <ul class="nav__list">
+               <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+               <li class="nav__item"><a href="#services" class="nav__link">My services</a></li>
+               <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+               <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
+
+           </ul>
+       </nav>
+   </header>
+   
+   <!---introduction-->
+   <section class="intro" id="home">
+       <h1 class="section__title section__title--intro">
+           Hey,I'm <strong>Gabrijela Rozic</strong></h1>
+           <p class="section__subtitle section__subtitle--intro">web developer</p>
+           <img src="img/Snapseed.jpeg" alt="photo of me" class="intro__img">
+      
+   </section>
+
+   <!---my services-->
+   <section class="my-services" id="services"> 
+       <h2 class="section__title section__title--services">What I do</h2>
+    <div class="services">
+        <div class="service">
+           <h3>Wordpress</h3>
+           <p>Things I like about Wordpress is that you can effortlessly make textual, graphic or 
+               structural changes to the website in an instant without having to deal with or look at any of the complicated programming code.</p>
+       </div> 
+
+       <div class="service">
+           <h3>HTML/CSS/Javascript</h3>
+           <p>Through the college I finished a couple of HTML/CSS courses. That's probably the reason why I gained more
+               interest in front-end development. 
+           </p>
+       </div>
+       </div> <!--/services--> 
+
+    </div>    
+    <a href="#work" class="btn">My work</a>
+   </section>
+
+
+   <!--about me-->
+   <section class="about-me" id="about">
+      
+       <h2 class="section__title section__title--about">Who I am</h2>
+       <p class="section__subtitle section__subtitle--about">Web developer based in London</p>
+
+       <div class="about-me__body">
+           <p>I moved to London recently, after I finished college	 and got my  Bachelor’s degree in Computer science. 
+            Right now I am looking to secure a postion where I can bring immediate value to a company and develop my current skillset further.
+               My main focus has mostly been on front-end development. </p>
+           <p></p>
+       </div>
+
+       <img src="img/Snapseed.jpeg" alt="" class="about-me__img">
+   </section>
+   <!--my work-->
+   <section class="my-work" id="work">
+       <h2 class="section__title">My work</h2>
+       <p class="section__subtitle section__subtitle--work" ></p>
+
+       <div class="portfolio">
+           <a href="https://github.com/gabrijelaro/Weather-app" class="portfolio__item">
+               <img src="img/weather.jpeg" alt="" class="portfolio__image">
+           </a>
+      
+
+      
+        <a href="https://github.com/gabrijelaro/Lawfirm" class="portfolio__item">
+            <img src="img/tu.jpg" alt="" class="portfolio__image">
+        </a>
+    </div>
+   </section>
+
+   <footer class="footer">
+       <a href="mailto:grozic97@gmail.com" class="footer__link">grozic97@gmail.com</a>
+       <ul class="social__list">
+           <li class="social-list__item">
+               <a class="social-list__link" href="https://github.com/gabrijelaro">
+                <i class="fab fa-github"></i>
+               </a>
+            </li>
+           
+           <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/gabrijela-rozic-b95116206/">
+            <i class="fab fa-linkedin"></i>
+           </a></li>
+
+       </ul>
+   </footer>
+
+   <script src="js/index.js"></script>
+</body>
+</html>
